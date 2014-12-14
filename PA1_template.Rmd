@@ -9,7 +9,7 @@ This document presents the solution for the cousera Reproducible Data Couse proj
 
 ```{r,echo=TRUE}
 library(plyr)
-data<-read.csv(file="/users/jenny/downloads/activity.csv")
+data<-read.csv(file="activity.csv")
 
 ```
 ###Question: What is the mean total number of steps per day?
